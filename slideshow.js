@@ -1,36 +1,19 @@
-let slideIndex = 0;
-showSlides(); // call showslide method
-
-function showSlides() {
-    let i;
-
-    // get the array of divs' with classname image-sliderfade
-    let slides = document.getElementsByClassName("image-sliderfade");
-
-    // get the array of divs' with classname dot
-    let dots = document.getElementsByClassName("dot");
-
-    for (i = 0; i < slides.length; i++) {
-        // initially set the display to
-        // none for every image.
-        slides[i].style.display = "none";
-    }
-
-    // increase by 1, Global variable
-    slideIndex++;
-
-    // check for boundary
-    if (slideIndex > slides.length) {
-        slideIndex = 1;
-    }
-
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-
-    // Change image every 2 seconds
-    setTimeout(showSlides, 2000);
-}
+ var indexValue = 1;
+         showImg(indexValue);
+         function btm_slide(e){showImg(indexValue = e);}
+         function side_slide(e){showImg(indexValue += e);}
+         function showImg(e){
+           var i;
+           const img = document.querySelectorAll('img');
+           const slider = document.querySelectorAll('.btm-slides span');
+           if(e > img.length){indexValue = 1}
+           if(e < 1){indexValue = img.length}
+           for(i = 0; i < img.length; i++){
+             img[i].style.display = "none";
+           }
+           for(i = 0; i < slider.length; i++){
+             slider[i].style.background = "rgba(255,255,255,0.1)";
+           }
+           img[indexValue-1].style.display = "block";
+           slider[indexValue-1].style.background = "white";
+         }
