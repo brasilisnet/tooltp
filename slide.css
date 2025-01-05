@@ -1,5 +1,5 @@
 .ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width: 100%; list-style: none; margin: 0; padding: 0; }
-.slider-container { width: 900px; margin: auto; padding-top: 1em; }
+.slider-container { width: 100%; margin: auto; padding-top: 1em; }
 .slider-container .ism-slider { margin-left: auto; margin-right: auto; }
 .slider-container br {
   display: none;
