@@ -1,0 +1,7 @@
+var images = [],
+index = 0;
+images[0] = "<p><a target='_blank' href='https://s.shopee.com.br/9pR9GLzVpC' title='Produtos Eroticos Na Shopee'><img border='0' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQbatN8AhzAafILLvAvOtt-2nlFabN8WTyT5mMzXPesjZGRwf9ROjGTldQ7m6_FWLvAqguP9gstnGH4vXDoVSOvhbeUSdZ0PElGNQZ2lZ-dYpDeizbh18nfm6lApRYYW9R_k1qt4WCFZ-uI-BaxYuIw13IPjNO-x-I75KK0xCl313xB3G6H4zPZrdFF3I0/s1024/horny_milf_teen_0286.webp' width='100%' height='auto'></a></p>";
+images[0] = "<p><a target='_blank' href='https://s.shopee.com.br/9pR9GLzVpC' title='Produtos Eroticos Na Shopee'><img border='0' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj890I4xxdGs08Sl4IHoiqHRCUeOMOIvMsukc2j7vwnnBOQKvSTYOlJOXsebG2V4A9JdcfhmbiBP4XWDx4lMa0-XyyAvZymHBgXV7n83ayN3zgNbhhIuinwmL0yWEHcpRLO4iUCllaw_rzZ_NkylSwnir2qfknRIzxB9sttJHvB3vIR1Uttp_n7Ap3j4KMy/s1024/horny_milf_teen_0287.webp' width='100%' height='auto'></a></p>";
+images[0] = "<p><a target='_blank' href='https://s.shopee.com.br/9pR9GLzVpC' title='Produtos Eroticos Na Shopee'><img border='0' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-W6blYcCrCVXvUsNfztTWsq7I0V1dyWUAZG1GhqW3a6V1Iy-Ez7O37PXGeD-D7ae9a4CSgjIjCCtm7swJk-Etd9BzxqBiXrOADkSN2qPrTdfcgk0kXFbbUhsK_v0AGYO-pxcEV3MqCOCq2tRkdIwFsI_3jlIvHLYghBktzWBFAfmQeacVZjSKI7JK6a6b/s1024/horny_milf_teen_0288.webp' width='100%' height='auto'></a></p>";
+index = Math.floor(Math.random() * images.length);
+document.write(images[index]);
